@@ -1,0 +1,18 @@
+#team {
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 75px;
+
+    text-align: center;
+}
+.team-header { }
+.team-header > h1 {
+    font-family: 'S-CoreDream-8Heavy';
+    font-size: 48px; font-weight: 800;
+}
+.team-header > p {
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.team-contents { }
+.team-contents > .profile { display: inline-block; }
