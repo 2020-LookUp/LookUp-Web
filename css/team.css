@@ -1,18 +1,44 @@
 #team {
     width: 100%;
     background-color: #F0F0F0;
-    padding: 75px;
-
+    padding: 100px 30px 150px 30px;
     text-align: center;
 }
-.team-header { }
+
+.team-header { margin-bottom: 60px; }
 .team-header > h1 {
     font-family: 'S-CoreDream-8Heavy';
     font-size: 48px; font-weight: 800;
+    margin-bottom: 10px;
 }
 .team-header > p {
-    font-weight: 900;
+    font-size: 20px; font-weight: 900;
     letter-spacing: 5px;
 }
-.team-contents { }
-.team-contents > .profile { display: inline-block; }
+
+.team-contents { color: #fff;}
+
+.team-contents > .profile {
+    width: 300px;
+    height: 350px;
+    padding: 80px 20px;
+    display: inline-block;
+    margin: 10px;
+    background-color: #404040;
+    border-radius: 20px;
+}
+
+.team-contents > .profile > .profile-header { margin-bottom: 65px; }
+.team-contents > .profile > .profile-header > h1 {
+    font-size: 30px; font-weight: 800;
+    letter-spacing: 15px;
+    margin-bottom: 20px;
+}
+.team-contents > .profile > .profile-header > h3 {
+    font-size: 18px; font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.team-contents > .profile > .profile-social > a { color: #fff; font-weight: 500; }
+.team-contents > .profile > .profile-social > a > i { font-size: 24px; font-weight: 500; }
+.team-contents > .profile > .profile-social > a:hover { text-decoration: none; }
