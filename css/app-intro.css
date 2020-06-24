@@ -1,7 +1,19 @@
 #app-intro {
     width: 100%;
     background-color: #1A1B36;
-    height: 100vh;
-
+    padding: 100px 30px 150px 30px;
     text-align: center;
+}
+
+.left {
+
+}
+.left > .app { display: inline-block; }
+.left > .app > img { width: 300px; }
+
+.left > .intro-contents { display: inline-block; margin-left: 300px; color: #fff; }
+.left > .intro-contents > h1 {
+    font-family: 'S-CoreDream-8Heavy';
+    font-size: 48px; font-weight: 800;
+    margin-bottom: 20px;
 }
