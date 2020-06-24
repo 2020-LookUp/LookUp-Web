@@ -5,14 +5,23 @@
     text-align: center;
 }
 
-.left {
-
-}
-.left > .app { display: inline-block; }
+.left { margin: 50px; }
+.left > .app { display: inline-block; margin: 0 150px;}
 .left > .app > img { width: 300px; }
 
-.left > .intro-contents { display: inline-block; margin-left: 300px; color: #fff; }
+.left > .intro-contents { display: inline-block; margin: 0 150px;color: #fff; width: 450px; }
 .left > .intro-contents > h1 {
+    font-family: 'S-CoreDream-8Heavy';
+    font-size: 48px; font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.right { margin: 50px; }
+.right > .app { display: inline-block; margin: 0 150px;}
+.right > .app > img { width: 300px; }
+
+.right > .intro-contents { display: inline-block; margin: 0 150px; color: #fff; width: 450px; }
+.right > .intro-contents > h1 {
     font-family: 'S-CoreDream-8Heavy';
     font-size: 48px; font-weight: 800;
     margin-bottom: 20px;
