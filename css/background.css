@@ -1,5 +1,5 @@
-#meaning { height: 100vh; background-color:#E5E5E5;}
-#background { height: 100vh; background-color:burlywood;}
+#meaning { height: 100vh; background-color:E5E5E5}
+#background { height: 100vh; background-color:E5E5E5}
 
 .meaning-intro {position: relative; width: 671px; height: 45px; left: 230px; top: 250px; font-size: 30px; line-height: 43px; }
 
@@ -9,4 +9,4 @@
 
 .ex { position: relative; width: 983px; height: 595px; left: 800px; top: -100px;}
 
-.logo_img { position: relative; width: 983px;  height: 240px; left: 229px; top: -10px;}
+.logo_img { position: relative; width: 983px;  height: 240px; left: 400px; top: 10px;}
