@@ -1,11 +1,11 @@
 #team {
     width: 100%;
     background-color: #F0F0F0;
-    padding: 100px 30px 150px 30px;
+    padding: 150px 30px 200px 30px;
     text-align: center;
 }
 
-.team-header { margin-bottom: 60px; }
+.team-header { margin-bottom: 76px; }
 .team-header > h1 {
     font-family: 'S-CoreDream-8Heavy';
     font-size: 48px; font-weight: 800;
@@ -44,7 +44,7 @@
     height: 350px;
     padding: 80px 20px;
     display: inline-block;
-    margin: 10px;
+    margin: 30px;
     /* background-color: #404040; */
     border-radius: 20px;
 }
