@@ -1,7 +1,7 @@
 #team {
     width: 100%;
     background-color: #F0F0F0;
-    padding: 150px 30px 200px 30px;
+    padding: 125px 30px 175px 30px;
     text-align: center;
 }
 
@@ -29,7 +29,7 @@
     background-position-y: -20px;
 }
 .team-contents > .p3 {
-    background-image: url('../images/p1.jpg');
+    background-image: url('../images/p3.png');
     background-size: cover;
     background-position-y: -20px;
 }
@@ -40,9 +40,9 @@
 }
 
 .team-contents > .profile {
-    width: 300px;
-    height: 350px;
-    padding: 80px 20px;
+    width: 350px;
+    height: 400px;
+    padding: 120px 20px;
     display: inline-block;
     margin: 30px;
     /* background-color: #404040; */
@@ -73,3 +73,10 @@
 .team-contents > .profile > .profile-social > a > i { font-size: 24px; font-weight: 500; }
 .team-contents > .profile > .profile-social > a:hover { text-decoration: none; }
 
+
+@media screen and (max-width: 768px) {
+    .team-contents > .profile {
+        width: 250px;
+        height: 300px;
+    }
+}

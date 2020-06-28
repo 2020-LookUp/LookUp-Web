@@ -1,10 +1,30 @@
 #app-intro {
     width: 100%;
     background-color: #1A1B36;
-    padding: 150px 30px 200px 30px;
+    padding: 125px 30px 175px 30px;
+    color: #fff;
 }
+.left { display: table; }
+.left > * {
+    margin: 0 100px;
+    display: table-cell; vertical-align: middle;
+}
+.left > .app  { display: inline-block; margin-bottom: 20px;}
+.left > .intro-contents { display: inline-block; width: 650px; margin-top: 20px;}
 
 .left > .app > img { width: 300px; }
+
+.left > .intro-contents > h1 {
+    letter-spacing: 2.5px;
+    font-family: 'S-CoreDream-8Heavy';
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.left > .intro-contents > p {
+    letter-spacing: 2.5px;
+    font-size: 24px;
+    line-height: 2.5rem;
+}
 
 
 .slider { text-align: center; }
@@ -17,7 +37,7 @@
 .bx-controls-direction { font-size: 70px; }
 .bx-controls-direction a { 
     position: absolute;
-    top: 50%;
+    top: 45%;
     display: block; 
     width: 70px; 
     height: 80px; 
@@ -40,7 +60,7 @@
 
 .bx-pager {
     position: absolute;
-    left: 0; bottom: -150px;
+    left: 0; bottom: -100px;
     width: 100%;
     text-align: center;
 }
@@ -55,4 +75,47 @@
 }
 .bx-pager div a.active {
     background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .left > * {
+        margin: 0;
+    }
+    .left > .intro-contents { width: 80%; }
+
+    .left > .app > img { width: 60%; }
+
+    .left > .intro-contents > h1 {
+        margin-bottom: 25px;
+        line-height: 8vw;
+        font-size: 6vw;
+    }
+    .left > .intro-contents > p {
+        font-size: 4vw;
+        line-height: 6vw;
+    }
+
+    .bx-pager div { padding: 2vw; }
+    .bx-pager div a {
+        width: 4vw; height: 4vw;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:1024px) {
+    .left > * {
+        margin: 0 50px;
+    }
+    .left > .intro-contents { width: 550px; }
+
+    .left > .app > img { width: 300px; }
+
+    .left > .intro-contents > h1 {
+        letter-spacing: 2.5px;
+        font-size: 40px;
+    }
+    .left > .intro-contents > p {
+        letter-spacing: 2.5px;
+        font-size: 20px;
+        line-height: 2rem;
+    }
 }

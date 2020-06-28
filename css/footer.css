@@ -8,3 +8,10 @@ footer {
     text-align: center;
     line-height: 5rem;
 }
+
+
+@media screen and (max-width: 768px) {
+    .copyright-text {
+        font-size: 12px;
+    }
+}
