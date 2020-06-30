@@ -7,8 +7,7 @@
 
 .team-header { margin-bottom: 76px; }
 .team-header > h1 {
-    font-family: 'S-CoreDream-8Heavy';
-    font-size: 48px; font-weight: 800;
+    font-size: 40px; font-weight: 800;
     margin-bottom: 10px;
 }
 .team-header > p {
@@ -73,10 +72,10 @@
 .team-contents > .profile > .profile-social > a > i { font-size: 24px; font-weight: 500; }
 .team-contents > .profile > .profile-social > a:hover { text-decoration: none; }
 
-
-@media screen and (max-width: 768px) {
+@media screen  and (max-width: 768px) {
     .team-contents > .profile {
         width: 250px;
         height: 300px;
+        padding: 20px;
     }
 }

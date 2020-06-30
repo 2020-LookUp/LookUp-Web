@@ -15,14 +15,12 @@
 .left > .app > img { width: 300px; }
 
 .left > .intro-contents > h1 {
-    letter-spacing: 2.5px;
-    font-family: 'S-CoreDream-8Heavy';
-    font-size: 48px;
+    font-size: 40px;
+    font-weight: 800;
     margin-bottom: 30px;
 }
 .left > .intro-contents > p {
-    letter-spacing: 2.5px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 2.5rem;
 }
 
@@ -88,10 +86,10 @@
     .left > .intro-contents > h1 {
         margin-bottom: 25px;
         line-height: 8vw;
-        font-size: 6vw;
+        font-size: 5vw;
     }
     .left > .intro-contents > p {
-        font-size: 4vw;
+        font-size: 3.5vw;
         line-height: 6vw;
     }
 
@@ -110,12 +108,11 @@
     .left > .app > img { width: 300px; }
 
     .left > .intro-contents > h1 {
-        letter-spacing: 2.5px;
-        font-size: 40px;
+        font-size: 36px;
     }
     .left > .intro-contents > p {
-        letter-spacing: 2.5px;
-        font-size: 20px;
+        font-size: 18px;
+        font-synthesis: 300;
         line-height: 2rem;
     }
 }
