@@ -1,0 +1,11 @@
+.section {
+    text-align: center;
+}
+
+/* Right Navigation */
+#fp-nav ul li a span {
+    background-color: #fff;
+}
+#fp-nav ul li .fp-tooltip {
+    color: #fff;
+}
