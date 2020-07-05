@@ -19,9 +19,9 @@
         <!-- CSS -->
         <link rel="stylesheet" href="./css/style.css">
     </head>
-    <body>
+    <body class='body'>
 
-        <div id='full-page'>
+        <div id='fullpage'>
 
             <div id="main-view" class="section">
                 <h2>Section 0</h2>
@@ -58,15 +58,15 @@
         <!-- Fullpage-->
         <script src="./js/fullpage.min.js"></script>
         <script>
-            new fullpage('#full-page', {
-                licenseKey: null,
+            new fullpage('#fullpage', {
                 sectionsColor: [
                     '#1A1B36', '#E5E5E5', '#1A1B36', '#E5E5E5'
                 ],
                 navigation: true,
-                navigationTooltips: ['홈', '퍼빙이란', '기능소개', '팀원소개']
+                navigationTooltips: ['홈', '퍼빙이란', '기능소개', '팀원소개'],
+                onLeave: function(origin, destination, direction){ },
+                scrollHorizontally: true
             });
         </script>
-
     </body>
 </html>
