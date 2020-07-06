@@ -1,0 +1,118 @@
+#app-intro {
+    width: 100%;
+    background-color: #1A1B36;
+    color: #fff;
+}
+.left { display: table; }
+.left > * {
+    margin: 0 100px;
+    display: table-cell; vertical-align: middle;
+}
+.left > .app  { display: inline-block; margin-bottom: 20px;}
+.left > .intro-contents { display: inline-block; width: 650px; margin-top: 20px;}
+
+.left > .app > img { width: 300px; }
+
+.left > .intro-contents > h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.left > .intro-contents > p {
+    font-size: 20px;
+    line-height: 2.5rem;
+}
+
+
+.slider { text-align: center; }
+.bx-wrapper {
+    position: relative;
+    border:0;
+    background:#1A1B36;
+    box-shadow:none;
+}
+.bx-controls-direction { font-size: 70px; }
+.bx-controls-direction a { 
+    display: none;
+    position: absolute;
+    top: 45%;
+    display: block; 
+    width: 70px; 
+    height: 80px; 
+    transform: translateY(-50%);
+    color: #fff;
+}
+.bx-controls-direction .bx-prev { left: 0; visibility: hidden; }
+.bx-controls-direction .bx-next { right: 0; visibility: hidden;}
+.bx-controls-direction .bx-prev:before { 
+    
+    content: "\e93d"; 
+    font-family: 'xeicon'; 
+    font-weight: 500;
+}
+.bx-controls-direction .bx-next:before { 
+    content: "\e940"; 
+    font-family: 'xeicon'; 
+    font-weight: 500;
+}
+
+.bx-pager {
+    position: absolute;
+    left: 0; bottom: -100px;
+    width: 100%;
+    text-align: center;
+}
+.bx-pager div { display: inline-block; padding: 15px; }
+.bx-pager div a {
+    display: block;
+    font-size: 0;
+    color: transparent;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background-color: #474866;
+}
+.bx-pager div a.active {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .left > * {
+        margin: 0;
+    }
+    .left > .intro-contents { width: 80%; }
+
+    .left > .app > img { width: 60%; }
+
+    .left > .intro-contents > h1 {
+        margin-bottom: 25px;
+        line-height: 8vw;
+        font-size: 5vw;
+    }
+    .left > .intro-contents > p {
+        font-size: 3.5vw;
+        line-height: 6vw;
+    }
+
+    .bx-pager div { padding: 2vw; }
+    .bx-pager div a {
+        width: 4vw; height: 4vw;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:1024px) {
+    .left > * {
+        margin: 0 50px;
+    }
+    .left > .intro-contents { width: 550px; }
+
+    .left > .app > img { width: 300px; }
+
+    .left > .intro-contents > h1 {
+        font-size: 36px;
+    }
+    .left > .intro-contents > p {
+        font-size: 18px;
+        font-synthesis: 300;
+        line-height: 2rem;
+    }
+}

@@ -1,0 +1,56 @@
+#main-view {
+    background-image: url('../images/Mock-Up.png');
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    background-position-y: 100px;
+    background-size: cover;
+}
+#main-view .title-box {
+    width: 700px;
+    margin-left: 150px;
+}
+#main-view .title-box h1 {
+    font-size: 144px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#main-view .title-box h3 {
+    font-size: 30px;
+    padding-bottom: 100px;
+}
+
+
+@media screen and (max-width: 1499px) { 
+    #main-view .title-box {
+        margin-left: 75px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1399px) {
+    #main-view {
+        background-position-x: 400px;
+        background-position-y: 200px;
+        background-size: cover;
+    }
+}
+
+@media (min-width:850px) and (max-width:1024px) {
+    #main-view {
+        background-position-x: 200px;
+        background-position-y: 300px;
+        background-size: cover;
+    }
+}
+
+@media all and (max-width:850px) {
+    #main-view {
+        background-position-x: -200px;
+        background-position-y: 250px;
+        background-size: cover;
+    }
+
+    #main-view .title-box {
+        width: 80%;
+        margin-left: 0;
+    }
+}

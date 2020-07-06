@@ -1,0 +1,49 @@
+#meaning {
+    font-size: 24px;
+    color: #000;
+}
+#meaning .content {
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+
+    width: 70%; height: 300px;
+    margin: auto;
+
+    text-align: center;
+}
+#meaning .content .content-box > img {
+    position: relative;
+    bottom: -75px;
+}
+
+.point {
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+
+#background {
+    font-size: 24px;
+    color: #000;
+}
+#background .content {
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+
+    width: 70%; height: 300px;
+    margin: auto;
+
+    text-align: center;
+}
+#background .content .content-box > .n1 {
+    position: relative;
+    margin-right: 275px;
+    left: 0;
+    bottom: -20px;
+}
+#background .content .content-box > .n2 {
+    position: relative;
+    margin-left: 275px;
+    left: 0;
+    bottom: -20px;
+}
